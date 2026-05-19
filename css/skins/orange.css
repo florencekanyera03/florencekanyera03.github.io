@@ -42,3 +42,34 @@ body.dark .aside .nav li a.active,
 .portfolio .portfolio-filter button.active {
     border-color: #fa5b0f;
 }
+
+.portfolio-links a {
+    background-color: #fa5b0f;
+}
+.portfolio-links a:hover {
+    background-color: #d44a0a;
+}
+.portfolio-filter button.active {
+    color: #fa5b0f;
+    border-bottom-color: #fa5b0f;
+}
+/* Add to each skin file (pink.css, blue.css, etc.) */
+.blog .blog-item-inner .blog-img .blog-date {
+    background-color:#fa5b0f /* Use theme color */
+}
+
+.blog .blog-item-inner .blog-info .blog-title:hover {
+    color:#fa5b0f /* Use theme color */
+}
+
+.blog .blog-item-inner .blog-info .blog-tags a {
+    color:#fa5b0f /* Use theme color */
+}
+
+.blog .blog-item-inner .blog-info .read-more {
+    color:#fa5b0f /* Use theme color */
+}
+
+.blog .blog-item-inner .blog-info .read-more:hover {
+    color: #c01530; /* Use darker theme color */
+}
